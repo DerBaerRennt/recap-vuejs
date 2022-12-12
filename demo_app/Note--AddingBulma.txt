@@ -1,0 +1,11 @@
+adding bulma and font-awesome@4.7.0
+
+    - stop npm (Strg C) in terminal
+    - enter command "npm install bulma font-awesome@4.7.0" in terminal
+    - add
+        @import "bulma/css/bulma.css";
+    to src/assets/main.css
+    now you should found in folder node_modules bulma/css/bulma.css
+    - if not already done, enter
+        import "./assets/main.css";
+    to components/main.ts
